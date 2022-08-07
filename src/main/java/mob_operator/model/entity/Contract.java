@@ -125,9 +125,6 @@ public Contract (){}
             this.number= builder.number;
             this.blockByCustomer= builder.blockByCustomer;
             this.optList=builder.optList;
-
-
-
     }
 
     @Override
