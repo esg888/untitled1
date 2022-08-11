@@ -45,8 +45,10 @@ public Opt(){}
             return this;
         }
 
-        public Opt build() {return new Opt(this);}
-
+        public Opt build() {
+            return new Opt(this);
+        }
+    }
         public long getId() {
             return id;
         }
@@ -97,7 +99,7 @@ public Opt(){}
                     ", optCost=" + optCost +
                     ", tariffList=" + tariffList +
                     '}';
-        }
+
     }
 
 }

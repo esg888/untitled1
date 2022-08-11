@@ -83,9 +83,10 @@ public Customer(){}
         }
 
 
-
-        public Customer build() {return new Customer(this);}
-
+        public Customer build() {
+            return new Customer(this);
+        }
+    }
         public long getId() {
             return id;
         }
@@ -168,7 +169,7 @@ public Customer(){}
                     ", tariffList=" + tariffList +
                     ", contractList=" + contractList +
                     '}';
-        }
+
     }
 
 }
